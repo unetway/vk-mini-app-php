@@ -1,0 +1,27 @@
+{
+  "name": "unetway/vk-mini-app-php",
+  "description": "Пакет для получения параметров приложений ВК mini",
+  "keywords": [
+    "vk",
+    "vkontakte",
+	"app",
+	"php"
+  ],
+  "homepage": "https://github.com/unetway/vk-mini-app-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cherepanov Ilya",
+      "email": "support@unetway.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unetway\\VkMiniApp\\": "src/"
+    }
+  }
+}
